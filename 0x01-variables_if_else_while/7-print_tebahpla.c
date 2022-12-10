@@ -12,7 +12,7 @@ int main(void)
 {
 	char law;
 
-	for (law = 'z'; law >= 'a'; law++)
+	for (law = 'z'; law >= 'a'; law--)
 		putchar(law);
 	putchar('\n');
 
