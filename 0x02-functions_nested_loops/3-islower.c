@@ -1,9 +1,9 @@
 #include "main.h"
+
 /**
  * _islower - check main
- *
  * @c: the character to be checked
- * 
+ *
  * Return: 1 if its lower and 0 if otherwise
  */
 
