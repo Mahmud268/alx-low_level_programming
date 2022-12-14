@@ -8,14 +8,12 @@
 
 int main(void)
 {
-	putchar('_');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
-	putchar('\n');
+	char word[8] = "_putchar";
+	int i;
 
-return (0);
+	for (i = 0; i <= 7; i++)
+		_putchar(word[i]);
+	_putchar('\n');
+
+	return (0);
 }
