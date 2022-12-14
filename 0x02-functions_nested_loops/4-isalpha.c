@@ -1,7 +1,9 @@
 #include "main.h"
+
 /**
- * _isupper - main
- *
+ * _isalpha - main
+ * @c: The character to be check
+ * Description: function returns 1 or zero
  * Return: 1 if is upper and 0 if otherwise
  */
 

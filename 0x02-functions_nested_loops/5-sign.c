@@ -1,7 +1,8 @@
 #include "main.h"
+
 /**
  * print_sign - check main
- *
+ * @n: An input number
  * Return: 1 if num is +ve, 0 if num is 0 or -1 if num is -ve
  */
 
