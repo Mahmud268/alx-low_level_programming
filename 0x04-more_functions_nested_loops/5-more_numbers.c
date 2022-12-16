@@ -2,8 +2,8 @@
 
 /**
  * more_numbers - check main
- *
- * Return: Always 0.
+ * Description: fuction to print x10
+ * Return: 10 times of the number from 0
  */
 void more_numbers(void)
 {
@@ -17,7 +17,6 @@ void more_numbers(void)
 			{
 				_putchar((i / 10) + '0');
 			}
-
 			_putchar((m % 10) + '0');
 		}
 		_putchar('\n');
