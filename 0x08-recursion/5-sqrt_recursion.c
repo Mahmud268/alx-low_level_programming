@@ -1,4 +1,5 @@
 #include "main.h"
+int _sqrt(int prev, int root);
 
 /**
  * _sqrt_recursion - check main
@@ -19,4 +20,11 @@ int _sqrt_recursion(int n)
  * @root: squre root value
  * Return: the squre root
  */
-
+int _sqrt(int prev, int root)
+{
+	if (prev > root)
+		return (-1);
+	else if (prev * prev == root)
+		return (prev);
+	return (_sqrt(prev + 1, root));
+}
