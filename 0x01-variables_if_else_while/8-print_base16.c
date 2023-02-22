@@ -11,9 +11,13 @@ int main(void)
 	char my;
 	
 	for (i = '0'; i <= '9'; i++)
+	{
 		putchar(i);
+	}
 	for (my = 'a'; my <= 'f'; my++)
+	{
 		putchar(my);
+	}
 	putchar('\n');
 
 	return (0);
